@@ -1,0 +1,8 @@
+@use '../../../library';
+
+:host {
+  background-color: library.$primary-green;
+  display: flex;
+  height: 10%;
+  width: 100%;
+}

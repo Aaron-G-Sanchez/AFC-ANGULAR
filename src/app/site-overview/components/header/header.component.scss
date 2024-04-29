@@ -1,0 +1,38 @@
+@use '../../../../library';
+
+:host {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.header-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5%;
+  background-color: library.$primary-green;
+  position: relative;
+}
+
+.austin-logo {
+  padding-top: 5%;
+  width: 200px;
+}
+
+.driussi-img {
+ position: absolute;
+ bottom: 0;
+}
+
+.title {
+  font-size: 12em;
+  font-weight: 800;
+}
+
+.season {
+  font-size: 3em;
+  font-weight: 700;
+}

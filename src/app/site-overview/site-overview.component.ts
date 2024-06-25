@@ -14,6 +14,7 @@ export class SiteOverviewComponent implements OnInit {
   playerList: Player[] = []
   constructor(private playerService: PlayerService) {}
 
+  // TODO Refactor this to use a resolver on the route rather than OnInit.
   ngOnInit(): void {
     this.playerService.getPlayers().subscribe((data) => {
       console.log(data)

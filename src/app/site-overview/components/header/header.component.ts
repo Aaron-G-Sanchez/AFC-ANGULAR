@@ -1,5 +1,5 @@
-import { Component} from '@angular/core'
-import { NavBarComponent } from '../../../shared/components/nav-bar.component';
+import { Component } from '@angular/core'
+import { NavBarComponent } from '../../../shared/components/nav-bar/nav-bar.component'
 
 @Component({
   selector: 'header-component',
@@ -8,6 +8,4 @@ import { NavBarComponent } from '../../../shared/components/nav-bar.component';
   imports: [NavBarComponent],
   standalone: true
 })
-export class HeaderComponent {
-  title: string = "HEADER";
-}
+export class HeaderComponent {}

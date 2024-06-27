@@ -28,7 +28,9 @@
 }
 
 .title {
-  font-size: 19em;
+  // TODO Switch back to 19em but figure out best way
+  // to scale. Probably add media-query so text is also centered?
+  font-size: 18em;
   font-weight: 800;
 }
 
